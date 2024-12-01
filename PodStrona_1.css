@@ -73,3 +73,9 @@ footer {
     max-width: 100%;
     text-align: center;
 }
+.loginf{
+    margin: auto;
+    display: grid;
+    background-color: whitesmoke;
+    width: 30%;
+}
