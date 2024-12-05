@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="PodStrona_1.css">
+    <link rel="stylesheet" href="Sabmenu.css">
+    <link rel="stylesheet" href="Strona_Zaloguj_się.css">
+    <link rel="icon" type="image/x-icon" href="imageKrypto/favicon.ico">
+    <title>DRESS&BEAT - login</title>
+</head>
+<body>
+    <header>
+        <a href="#"><img class="header1" src="imageKrupto/Binance.png" alt="Logo"></a>
+        <div>
+            <a class="header2" href="#">Znajdź sklep</a>
+            <span>|</span>
+            <a class="header2" href="strona_1.html">Pomoc</a>
+            <span>|</span>
+            <a class="header2" href="Strona_Dołącz_do_nas.html">Dołącz do nas</a>
+            <span>|</span>
+            <a class="header2" href="GlownaStrona.html">Zwrócz do sklepu</a>
+        </div>
+    </header>
+    <nav>
+    <div class="login">
+        <form onsubmit="return validateEmail()">
+            <label for="email">Wpisz swój adres e-mail <br> Aby do nas dołączyć lub się zalogować</label><br>
+            <input class="text" type="text" id="email" placeholder="Email*"><br>
+            <button class="button" type="submit">Kontynuować</button>
+          </form>
+        <script>
+            function validateEmail() {
+              const email = document.getElementById('email').value;
+        
+              // Перевірка на '@' та 'gmail.com'
+              if (email.includes('@') && email.endsWith('gmail.com')) {
+                window.location.href = 'Strona_Zaloguj_się_2.html'; 
+                return false; // Форма відправиться
+              } else {
+                alert('Invalid email! Ensure it contains "@" and ends with "gmail.com".');
+                return false; // Зупиняємо відправку форми
+              }
+            }
+        </script>
+    </div>
+    </nav>
+    <footer>© 2024 DRESS&BEAT, Inc. Wszelkie prawa zastrzeżone</footer>
+</body>
+</html>

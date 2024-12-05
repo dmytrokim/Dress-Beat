@@ -1,0 +1,71 @@
+/* Загальний стиль для контейнера */
+.image {
+  position: relative;
+  width: 100%;
+  height: 450px;
+}
+
+  
+  .max-text {
+    user-select: none;
+    position: absolute;
+    top: 190px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    z-index: 10; /* Zapewnia, że tekst będzie widoczny nad obrazem */
+    padding: 10px;
+    word-spacing: 0.12em;
+    line-height: 1.5;
+    letter-spacing: 0.08;
+}
+
+.min-text {
+    user-select: none;
+    position: absolute;
+    top: 355px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    z-index: 10;
+    padding: 10px;
+    word-spacing: 0.12em;
+    line-height: 1.5;
+    letter-spacing: 0.08em; /* Drobny odstęp między literami */
+}
+
+.Zapisz_się {
+  position: absolute; /* Or relative, depending on desired behavior */
+  top: 485px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  text-decoration: none;
+  user-select: none;
+  background-color: rgb(160, 160, 160);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px; /* Змінюємо розмір кнопки */
+  font-size: 16px;
+}
+
+.Zapisz_się:hover{
+  text-decoration: none;
+  background-color: rgb(110, 110, 110);
+}
+.Zapisz_się:active{
+  text-decoration: none;
+  background-color: rgb(70, 70, 70);
+}
+
+/*.Dołącz_do_nas{
+  transition-delay: 2s;
+}*/
