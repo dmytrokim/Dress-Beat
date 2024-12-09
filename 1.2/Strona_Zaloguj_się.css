@@ -1,0 +1,171 @@
+body{
+  background-image: url('imageKrupto/login_fon.jpg');
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Центрує вміст по вертикалі */
+    align-items: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+    border-radius: 20px;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    /*background: linear-gradient(rgb(0,0,0,1),rgb(0,0,0,1)), url("imageKrypto/login_fon.jpg");*/
+    background-color: #f4f4f4; /*Легкий фон */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1); /* Тінь для візуального ефекту */
+  }
+  .button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 45px;
+    font-weight: bolder;
+  }
+  .button:hover {
+    background-color: rgb(100, 100, 100);
+  }
+ .text {
+    width: 90%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-top: 45px;
+  }
+
+
+
+  .probil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgba(180, 170, 157, 0.8);
+    outline: none;
+}
+.head{
+    background-color: white;
+}
+.header1 {
+    margin-left: 50px;
+    letter-spacing: 10px;
+    font-weight: bold;
+    font-size: 17px;
+}
+.header2 {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.header2:hover {
+    color: slategray;
+}
+.header2:active {
+    color: darkslategray;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(180, 170, 157, 0.8);
+    width: 100%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.nav1 {
+    margin-top: 10px;
+    margin-left: 45px;
+    height: 45px;
+    width: 45px;
+}
+.nav2 {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.nav2:hover {
+    text-decoration: underline;
+}
+.nav-container{
+    display: flex;
+    justify-items: center;
+}
+.wyszukaj {
+    height: 30px;
+    width: 130px;
+    margin-right: 10px;
+    border: 0px solid rgba(135, 135, 135, 0.2);
+    background-color: rgba(135, 135, 135, 0.2);
+    border-radius: 40px;
+    outline: none;
+    padding-left: 10px;
+}
+.wyszukaj:hover{
+    background-color: rgba(90, 90, 90, 0.1);
+}
+.image-container {
+    position: relative; /* Установлює контейнер як базовий шар */
+    display: inline-block; /* Контейнер буде мати розмір зображення */
+}
+
+.fon_1 {
+    width: 100%;
+    height: auto;
+    display: block; /* Запобігає додатковим відступам */
+}
+
+.vertical-text {
+    position: absolute; /* Розміщує текст над зображенням */
+    top: 20px;
+    bottom: 0;
+    right: 10px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column; /* Вертикальне вирівнювання елементів */
+    justify-content: space-between;
+    writing-mode: vertical-rl; /* Робить текст вертикальним */
+    transform: rotate(0deg); /* Перевертає текст */
+    font-size: 24px;
+    letter-spacing: 25px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+.szryft {
+    font-size: 25px;
+    font-weight: bold;
+}
+footer {
+    position: absolute; bottom: 0;
+    color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(90, 90, 90, 0.5);
+    padding: 8px;
+    border-radius: 7px;
+    font-size: 20px;
+    margin-bottom: 0%;
+    text-align: center;
+    width: 97.9%;
+}
